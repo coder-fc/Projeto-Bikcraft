@@ -1,2 +1,2 @@
 # Projeto Bikcraft
- Projeto realizado no curso de Web Design Origamid
+ Repositório criado para o projeto BikCraft. 
