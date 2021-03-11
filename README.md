@@ -24,5 +24,3 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 
--linkedin - www.linkedin.com/in/dev-fcm
-
