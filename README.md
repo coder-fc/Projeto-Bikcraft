@@ -23,3 +23,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
+
+-linkedin - www.linkedin.com/in/dev-fcm
+
