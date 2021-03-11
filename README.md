@@ -8,12 +8,11 @@
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
-</p> 
+</p>
 
 <h4 align="center"> 
 	🚧 Bikcraft 🚀 Em construção... 🚧
 </h4>
-
 
 ### 🛠 Tecnologias
 
@@ -25,6 +24,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 <<<<<<< HEAD
+
 ### 🛠 Autor
 
 <a href="www.linkedin.com/in/dev-fcm/">
@@ -32,13 +32,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
  <br />
  <sub><b>Felipe Costa - Dev FC-M</b></sub></a> <a href="www.linkedin.com/in/dev-fcm/" title="Dev-FC-M">🚀</a>
 
-
 Feito com ❤️ por Felipe Contato 👋🏽 Entre em contato!
 
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/dev-fcm/) 
-[![Gmail Badge](	https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:felipech3344@gmail.com)
-=======
-
--linkedin - www.linkedin.com/in/dev-fcm
-
->>>>>>> 2bb20cbed3b84502469feabb6cc8f4671d6ff382
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/dev-fcm/)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:felipech3344@gmail.com)
