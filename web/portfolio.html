@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/portfolio.css">
   <link rel="stylesheet" href="css/responsivo.css">
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
       </a>
       <nav class="header_menu grid-12">
         <ul>
-          <li><a href="sobre.html" >Sobre</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
           <li><a href="produtos.html">Produtos</a></li>
           <li><a href="portfolio.html" class="menu_ativo">Portfólio</a></li>
           <li><a href="contato.html">Contato</a></li>
@@ -37,19 +38,32 @@
     </div>
   </section>
 
-  <section class="container">
+  <section class="container" data-slide="quote">
     <blockquote class="quote_clientes">
-      <p>"No mundo atual a continua expansão da nossa atividade cumpre um papel essencial na formulação da gestão inovadora do qual fazemos parte."</p>
+      <p>"Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo á todos que amo."</p>
       <cite>Barbara Moss</cite>
+    </blockquote>
+    <blockquote class="quote_clientes">
+      <p>"Nada melhor do que dar um rolê com a minha Bikcraft na orla. Essa é a minha companheira mais fiel, nunca me traiu e está sempre a minha disposição"</p>
+      <cite>Jhony Rato</cite>
+    </blockquote>
+    <blockquote class="quote_clientes">
+      <p>"Aqueles que ainda não possuem uma Bifcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcendental. Nunca vi nada igual."</p>
+      <cite>Bernardo</cite>
     </blockquote>
   </section>
 
   <section class="portfolio">
-    
-    <div class="container">
+
+    <div class="container" data-slide="portfolio">
       <ul class="portfolio_lista">
         <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta Retrô"></li>
         <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio"></li>
+        <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte"></li>
+      </ul>
+      <ul class="portfolio_lista">
+        <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicicleta passeio"></li>
+        <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicicleta Retrô"></li>
         <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicicleta esporte"></li>
       </ul>
     </div>
@@ -96,10 +110,13 @@
     <div class="copy">
       <div class="container">
         <p class="grid-16">Bikcraft 2021 - Alguns direitos reservados</p>
-      </div>  
+      </div>
     </div>
 
   </footer>
+
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 
