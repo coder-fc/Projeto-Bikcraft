@@ -81,7 +81,7 @@
       </ul>
     </div>
   </section>
-  
+
   <section class="container produto_item">
     <div class="grid-11">
       <img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft Retrô">
@@ -107,16 +107,23 @@
   <section class="orcamento">
     <div class="container">
       <h2 class="subtitulo"> Orçamento</h2>
-      <form id="form_orcamento" class="grid-8 form">
+      <form id="form_orcamento" method="POST" action="./enviar.php" class="grid-8 form formphp">
         <label for="nome">Nome</label>
-        <input type="text" id="nome" >
+        <input type="text" id="nome" name="nome" required>
         <label for="email">E-mail</label>
-        <input type="email" id="email" >
+        <input type="email" id="email" name="email" required>
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone" >
-        <label for="espec">Especificações</label>
-        <textarea id="espec"></textarea>
-        <button type="submit" class="btn">Enviar</button>
+        <input type="text" id="telefone" name="telefone">
+
+
+        <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+        <input type="text" class="nao-aparece" name="leaveblank">
+        <label class="nao-aparece">Se você não é um robô, não mude esse campo</label>
+        <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <button type="submit" id="enviar" name="enviar" class="btn">Enviar</button>
       </form>
       <div class="orcamento_dados grid-8">
         <h3>Dados</h3>
@@ -134,7 +141,7 @@
       </div>
     </div>
   </section>
-  
+
   <section class="quebra">
     <blockquote class="quote-externo container">
       <p>""O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana""</p>
@@ -175,14 +182,15 @@
     <div class="copy">
       <div class="container">
         <p class="grid-16">Bikcraft 2021 - Alguns direitos reservados</p>
-      </div>  
+      </div>
     </div>
 
   </footer>
 
-  <script src="./js/simple-anime.js"></script>;
-  <script src="./js/script.js"></script>;
-  
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-form.js"></script>
+  <script src="./js/script.js"></script>
+
 </body>
 
 </html>

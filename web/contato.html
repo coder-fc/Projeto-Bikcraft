@@ -39,16 +39,23 @@
   </section>
 
   <section class="contato container fadeInDown" data-anime="1200">
-    <form id="form_contato" class="grid-8 contato_form">
+    <form id="form_contato" method="POST" action="./enviar.php" class="grid-8 contato_form formphp">
       <label for="nome">Nome</label>
-      <input type="text" id="nome">
+      <input type="text" id="nome" name="nome" required>
       <label for="email">E-mail</label>
-      <input type="email" id="email">
+      <input type="email" id="email" name="email" required>
       <label for="telefone">Telefone</label>
-      <input type="text" id="telefone">
-      <label for="espec">Especificações</label>
-      <textarea id="espec"></textarea>
-      <button type="submit" class="btn btn-preto">Enviar</button>
+      <input type="text" id="telefone" name="telefone">
+
+
+      <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+      <input type="text" class="nao-aparece" name="leaveblank">
+      <label class="nao-aparece">Se você não é um robô, não mude esse campo</label>
+      <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+      <button type="submit" id="enviar" name="enviar" class="btn btn-preto">Enviar</button>
     </form>
     <div class="contato_dados grid-8">
       <h3>Dados</h3>
@@ -66,7 +73,7 @@
 
   </section>
 
-  <section class="container contato_mapa fadeInDown" data-anime="1600" >
+  <section class="container contato_mapa fadeInDown" data-anime="1600">
     <a href="https://www.google.com.br/maps/place/R.+Maria+Jos%C3%A9+Ferreira+-+Jardim+Helena,+Carapicu%C3%ADba+-+SP,+06342-080/@-23.5820127,-46.8340756,15z/data=!3m1!4b1!4m5!3m4!1s0x94cfaaaccb37543d:0x57eee8604fc4ecf1!8m2!3d-23.582033!4d-46.8253208" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
   </section>
 
@@ -115,8 +122,9 @@
 
   </footer>
 
-  <script src="./js/simple-anime.js"></script>;
-  <script src="./js/script.js"></script>;
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-form.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 
