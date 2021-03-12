@@ -21,6 +21,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML](https://www.w3.org/html/)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [PHP](https://www.php.net/)
 
 ### 🛠 Autor
 
