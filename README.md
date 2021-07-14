@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://user-images.githubusercontent.com/73148418/111402437-f8669700-86a9-11eb-81c7-8ff2f8b42b07.png" />
+<img src="https://user-images.githubusercontent.com/73148418/117094001-f085b380-ad38-11eb-86bc-c37b38757990.png" />
 </p>
 
 <h1 align="center">Projeto Bikcraft<h1>
